@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reverse Timer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="inputGroup">
+        <label for="name">Enter event name:</label>
+        <input type="text" name="name" id="name" autocomplete="off">
+    </div>
+    <div class="inputGroup">
+        <label for="date">Enter event date:</label>
+        <input type="date" name="date" id="date">
+    </div>
+    <button onclick="addTimer()">Add a new timer</button>
+    <button onclick="deleteTimers()">Delete all timers</button>
+</body>
+</html>
